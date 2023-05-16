@@ -1,5 +1,5 @@
 # **Tecnologia InvestSmart XP | Be.Smart**
-![alt text](logo-invest.png)
+![alt text]([logo-invest.png](https://crm.hub-bnk.com/docs/pub/a534c03c11ef9eb87e6acad148f3dfdf/showPreview/?&token=sivj19z4pijq))
 ---
 
 Olá, este é o github do setor de tecnologia da InvestSmart e Be.smart. Aqui serão centralizados os códigos do time de desenvolvimento e dados.
