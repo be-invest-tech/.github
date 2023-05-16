@@ -1,4 +1,9 @@
-## Hi there 👋
+![alt text](https://crm.hub-bnk.com/cf792edb-2cac-4e1b-bb3c-27af01520581)
+# Github Tecnologia InvestSmart XP | Be.Smart
+
+Olá, este é o github do setor de tecnologia da InvestSmart e Be.smart. Aqui serão centralizados os códigos do time de desenvolvimento e dados.
+
+## 
 
 <!--
 
