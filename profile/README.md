@@ -1,17 +1,41 @@
-![alt text](https://crm.hub-bnk.com/cf792edb-2cac-4e1b-bb3c-27af01520581)
-# Github Tecnologia InvestSmart XP | Be.Smart
+# **Tecnologia InvestSmart XP | Be.Smart**
+![alt text](logo-invest.png)
+---
 
 Olá, este é o github do setor de tecnologia da InvestSmart e Be.smart. Aqui serão centralizados os códigos do time de desenvolvimento e dados.
 
-## 
+## Boas Práticas e padrões
+Aqui estão algumas regras de padronização para manter a organização dos repositórios do time. É muito importante seguir os padrões de nomenclatura definidos aqui para manter os repositórios organizados para todos no time.
 
-<!--
+### Nome dos repositórios
+Os repositórios devem ser nomeados seguindo o padrão:
+  - Todo o nome deve estar em letras minúsculas
+  - Palavras devem ser separadas com - (hífen)
+  - Pense sempre em criar padrões de nomenclatura para grupos de código (Exemplo: todos os repositórios de pipelines de dados começam com o nome pipeline-xxxxx). Isto facilita a busca de repositórios por sufixos.
 
-**Here are some ideas to get you started:**
+### Commits
+Ao fazer um commit devemos seguir um padrão para manter as mudanças e alterações de código claras. Este padrão também é conhecido como commits semânticos.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+#### **Estrutura dos commits:**
+{*Tipo do commit*}{*Escopo do commit*}:{*Descrição da alteração*}
+
+  - **Tipos de commit**:
+    #### $\textcolor{red}{\textsf{OBRIGATÓRIO}}$ 
+    - *feat* - Tratam adições de novas funcionalidades ou de quaisquer outras novas implementações e alterações de funcionalidade ao código.
+    - *docs* - Inclusão ou alteração somente de arquivos de documentação.
+    - *fix* - Essencialmente definem o tratamento de correções de bugs.
+    - *refactor* - Tipo utilizado em quaisquer mudanças que sejam executados no código, porém não alterem a funcionalidade final da tarefa impactada.
+    - *test* - Adicionando testes ausentes ou corrigindo testes existentes nos processos de testes automatizados (TDD)
+
+    *Ex* - feat: acrescenta o sistema de login e autenticação
+
+  - **Escopo do commit**:
+    #### $\textcolor{orange}{\textsf{OPCIONAL}}$ 
+    O escopo é opcional. É uma forma de indicar em qual contexto foi modificado. Exemplo ao realizar uma mudança no login do sistema.
+      
+      *Ex* - feat(login): altera a caixa de texto
+
+  - **Descrição**:
+    #### $\textcolor{red}{\textsf{OBRIGATÓRIO}}$ 
+    Trata-se da breve descrição da modificação feita naquele commit. Sempre em letras minúsculas, menos quando necessário para nomear uma classe, por exemplo.
+---
